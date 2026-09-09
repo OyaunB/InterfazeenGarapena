@@ -10,7 +10,9 @@ public class Main {
                 ibilgailua.setUrtea(2035);
                 System.out.println("Datuak (urtea) aldatuta= ");
                 ibilgailua.erakutsiDatuak();
-
+                System.out.println("Datuak (Kotxea OBJETUA");
+                Kotxea kotxea = new Kotxea( "1111NNN",  "MITSUBIBHI",
+                        "EVO 6 makinen",  2002);
         }
 
 }
