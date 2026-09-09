@@ -1,14 +1,25 @@
 package org.example;
 
 public class Ibilgailua {
+    private String matrikula;
     private String modeloa;
     private String marka;
     private int urtea;
 
-    public Ibilgailua(String modeloa, String marka, int urtea){
+
+    public Ibilgailua(String matrikula, String modeloa, String marka, int urtea){
+        this.matrikula = matrikula;
         this.marka = marka;
         this.modeloa = modeloa;
         this.urtea = urtea;
+    }
+
+    public String getMatrikula() {
+        return matrikula;
+    }
+
+    public void setMatrikula(String matrikula) {
+        this.matrikula = matrikula;
     }
 
     public String getModeloa(){
@@ -42,7 +53,7 @@ public class Ibilgailua {
 
     public void erakutsiDatuak(){
 
-        System.out.println("Ibilgailua: " + this.marka + " "
+        System.out.println("Ibilgailua: " + this.matrikula + " " + this.marka + " "
                 + this.modeloa + " " + this.urtea);
     }
 }
