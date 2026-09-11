@@ -15,9 +15,13 @@ public class Main {
                         "EVO 6 makinen",  2002);
 
                 System.out.println("______MOTOAK_______");
-                Ibilgailua motoa1 = new Ibilgailua (  "1212AAA",  "Panigale",
-                                       "Ducati",  2025);
+              //  Ibilgailua motoa1 = new Ibilgailua (  "1212AAA",  "Panigale",
+               //                        "Ducati",  2025);
                 motoa1.erakutsiDatuak();
+
+                for(Ibligailua ibil : ibilgailuak){
+                        System.out.println(ibil.erakutsiDatuak());
+                }
         }
 
 }
