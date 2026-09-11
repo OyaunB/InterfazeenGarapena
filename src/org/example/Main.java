@@ -19,7 +19,7 @@ public class Main {
                //                        "Ducati",  2025);
                 motoa1.erakutsiDatuak();
 
-                for(Ibligailua ibil : ibilgailuak){
+                for(Ibilgailua ibil : ibilgailuak){
                         System.out.println(ibil.erakutsiDatuak());
                 }
         }
