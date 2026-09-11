@@ -56,4 +56,5 @@ public abstract class Ibilgailua {
         System.out.println("Ibilgailua: " + this.matrikula + " " + this.marka + " "
                 + this.modeloa + " " + this.urtea);
     }
+    public abstract void mugitu();
 }

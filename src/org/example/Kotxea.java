@@ -10,4 +10,7 @@ public class Kotxea  extends Ibilgailua{
         System.out.println("Kotxea: " + getMarka() +" " +
                             getModeloa() + " " + getUrtea());
     }
+    public void mugitu(){
+        System.out.println("Kotxea kugitzen ari da");
+    }
 }
