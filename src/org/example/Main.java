@@ -26,6 +26,12 @@ public class Main {
                 Elektrikoa[] elektrikoak = {
                         new KamioiElektrikoak( matrikula: "HIL-1312.CO" ,marka: "TESLA", modeloa: "CYBERTRUCK", urtea: 2023)
                 }
+                for(Elektrikoak elek : elektrikoak){
+                        elek.kargatu();
+                }
+
+
+                System.out.println("Ibilgailu kopurua: " + Ibilgailua.getKopurua());
         }
 
 }

@@ -1,17 +1,25 @@
 package org.example;
 
 public abstract class Ibilgailua {
+
+    private static int kopurua = 0;
+
     private String matrikula;
     private String modeloa;
     private String marka;
     private int urtea;
-
 
     public Ibilgailua(String matrikula, String modeloa, String marka, int urtea){
         this.matrikula = matrikula;
         this.marka = marka;
         this.modeloa = modeloa;
         this.urtea = urtea;
+
+        kopurua++;
+    }
+
+    public static int getKopurua(){
+        return kopurua;
     }
 
     public String getMatrikula() {
@@ -50,6 +58,8 @@ public abstract class Ibilgailua {
             this.urtea = urtea;
         }
     }
+
+
 
     public void erakutsiDatuak(){
 
