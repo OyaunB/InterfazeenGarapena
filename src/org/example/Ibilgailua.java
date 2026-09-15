@@ -9,6 +9,8 @@ public abstract class Ibilgailua {
     private String marka;
     private int urtea;
 
+
+
     public Ibilgailua(String matrikula, String modeloa, String marka, int urtea){
         this.matrikula = matrikula;
         this.marka = marka;
