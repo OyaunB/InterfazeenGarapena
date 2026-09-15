@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.List;
+
 public class Main {
         static void main()
         {
@@ -30,9 +32,18 @@ public class Main {
                         elek.kargatu();
                 }
 
-
+                List<Elektrikoa> elektrikoakList = new ArrayList<>();
+                elektrikoakList.add(new KamioiElektrikoa( matrikula: "ABC123", marka: "TESLA", modeloa: "CYBERTRUCK", urtea: 2006);
+                //Lortu array posizio konkretuko ibilgailua
+                elektrikoakList.get(0).kargatu();
+                elektrikoakList.set(0, new KamioiElektrikoa(matrikula: "PROBA", marka: "BMW", modeloa: "M3 E30", 1989));
+                elektrikoakList.remove( index: 1);
+                System.out.println(elektrikoakList.size());
 
                 System.out.println("Ibilgailu kopurua: " + Ibilgailua.getKopurua());
+
+                //HashMap ikasi
+
         }
 
 }

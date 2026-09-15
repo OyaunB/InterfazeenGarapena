@@ -14,5 +14,5 @@ public class KamioiDiesela implements Erregaiak{
             System.out.println("Kamioi diesela hornitzen ari da. ");
         }
     }
-sop
+
 }
